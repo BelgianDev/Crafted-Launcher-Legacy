@@ -1,13 +1,13 @@
 {
-  "name": "helioslauncher",
+  "name": "crafted-launcher",
   "version": "2.2.1",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "productName": "Crafted Launcher",
+  "description": "Unofficial Minecraft launcher based on Helios Launcher ",
+  "author": "Daniel Scalzi (https://github.com/dscalzi/), RaftDev (https://github.com/BelgianDev)",
+  "license": "MIT",
+  "homepage": "https://github.com/BelgianDev/crafted-launcher-legacy",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/BelgianDev/crafted-launcher-legacy/issues"
   },
   "private": true,
   "main": "index.js",
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/BelgianDev/Crafted-Launcher-Legacy.git"
   }
 }
