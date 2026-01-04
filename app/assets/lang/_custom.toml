@@ -8,7 +8,7 @@ mediaGitHubURL = "https://github.com/Raft08/Crafted-Launcher-Legacy"
 mediaTwitterURL = "#"
 mediaInstagramURL = "#"
 mediaYouTubeURL = "#"
-mediaDiscordURL = "https://discord.gg/6RMXbJuupP"
+mediaDiscordURL = "https://discord.gg/HAJ2sza2AD"
 
 [ejs.settings]
 sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
@@ -16,5 +16,5 @@ supportLink = "https://github.com/Raft08/Crafted-Launcher-Legacy/issues"
 
 [ejs.welcome]
 welcomeHeader = "WELCOME TO CRAFTED"
-welcomeDescription = "Welcome to bullshit"
+welcomeDescription = "Welcome to Belgian Nation"
 welcomeDescCTA = "Continue"
