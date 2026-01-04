@@ -2,7 +2,7 @@ appId: 'craftedlauncherlegacy'
 productName: 'Crafted Launcher Legacy'
 artifactName: '${productName}-setup-${version}.${ext}'
 
-copyright: 'Copyright © 2018-2023 RaftDev'
+copyright: 'Copyright © 2018-2026 RaftDev'
 
 asar: true
 compression: 'maximum'
