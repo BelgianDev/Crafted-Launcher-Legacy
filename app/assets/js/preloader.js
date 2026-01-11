@@ -1,3 +1,12 @@
+// Needed for the embedded Helios-Core
+require('ts-node').register({
+    transpileOnly: true,
+    compilerOptions: {
+        module: 'CommonJS',
+        target: 'ESNext'
+    }
+})
+
 const {ipcRenderer}  = require('electron')
 const fs             = require('fs-extra')
 const os             = require('os')
@@ -6,9 +15,9 @@ const path           = require('path')
 const ConfigManager  = require('./configmanager')
 const { DistroAPI }  = require('./distromanager')
 const LangLoader     = require('./langloader')
-const { LoggerUtil } = require('helios-core')
+const { LoggerUtil } = require('./../../core/util/LoggerUtil')
 // eslint-disable-next-line no-unused-vars
-const { HeliosDistribution } = require('helios-core/common')
+const { HeliosDistribution } = require('./../../core/common/distribution/DistributionFactory')
 
 const logger = LoggerUtil.getLogger('Preloader')
 

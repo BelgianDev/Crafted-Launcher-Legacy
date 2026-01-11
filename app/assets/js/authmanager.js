@@ -10,11 +10,12 @@
  */
 // Requirements
 const { v3: uuidv3 } = require('uuid')
-const ConfigManager          = require('./configmanager')
-const { LoggerUtil }         = require('helios-core')
-const { RestResponseStatus } = require('helios-core/common')
-const { MojangRestAPI, MojangErrorCode } = require('helios-core/mojang')
-const { MicrosoftAuth, MicrosoftErrorCode } = require('helios-core/microsoft')
+const ConfigManager = require('./configmanager')
+const { LoggerUtil } = require('./../../core/util/LoggerUtil')
+const { RestResponseStatus } = require('./../../core/common/rest/RestResponse')
+const { MojangRestAPI, MojangErrorCode } = require('../../core/mojang/rest/MojangRestAPI')
+const { MicrosoftAuth } = require('../../core/microsoft/rest/MicrosoftAuth')
+const { MicrosoftErrorCode } = require('../../core/microsoft/rest/MicrosoftResponse')
 const { AZURE_CLIENT_ID }    = require('./ipcconstants')
 const Lang = require('./langloader')
 

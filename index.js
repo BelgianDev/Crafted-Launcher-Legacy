@@ -253,9 +253,7 @@ function createWindow() {
     })*/
 
     win.removeMenu()
-
     win.resizable = true
-
     win.on('closed', () => {
         win = null
     })

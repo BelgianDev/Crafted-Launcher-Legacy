@@ -2,30 +2,16 @@
  * Script for landing.ejs
  */
 // Requirements
-const { URL }                 = require('url')
-const {
-    MojangRestAPI,
-    getServerStatus
-}                             = require('helios-core/mojang')
-const {
-    RestResponseStatus,
-    isDisplayableError,
-    validateLocalFile
-}                             = require('helios-core/common')
-const {
-    FullRepair,
-    DistributionIndexProcessor,
-    MojangIndexProcessor,
-    downloadFile
-}                             = require('helios-core/dl')
-const {
-    validateSelectedJvm,
-    ensureJavaDirIsRoot,
-    javaExecFromRoot,
-    discoverBestJvmInstallation,
-    latestOpenJDK,
-    extractJdk
-}                             = require('helios-core/java')
+const { URL } = require('url')
+const { MojangRestAPI } = require('./core/mojang/rest/MojangRestAPI')
+const { getServerStatus } = require('./core/mojang/net/ServerStatusAPI')
+const { RestResponseStatus } = require('./core/common/rest/RestResponse')
+const { validateLocalFile } = require('./core/common/util/FileUtils')
+const { downloadFile } = require('./core/dl/DownloadEngine')
+const { FullRepair } = require('./core/dl/AssetGaurdTransmitter')
+const { DistributionIndexProcessor } = require('./core/dl/distribution/DistributionIndexProcessor')
+const { MojangIndexProcessor } = require('./core/dl/mojang/MojangIndexProcessor')
+const { validateSelectedJvm, ensureJavaDirIsRoot, javaExecFromRoot, discoverBestJvmInstallation, latestOpenJDK, extractJdk} = require('./core/java/JavaGuard')
 
 // Internal Requirements
 const DiscordWrapper          = require('./assets/js/discordwrapper')
