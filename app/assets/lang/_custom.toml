@@ -15,6 +15,6 @@ sourceGithubLink = "https://github.com/dscalZi/HeliosLauncher"
 supportLink = "https://github.com/BelgianDev/Crafted-Launcher-Legacy/issues"
 
 [ejs.welcome]
-welcomeHeader = "WELCOME TO CRAFTED"
-welcomeDescription = "Welcome to Belgian Nation"
-welcomeDescCTA = "Continue"
+welcomeHeader = "WELCOME ON THE CRAFTED LAUNCHER"
+welcomeDescription = "This launcher mainly is used for modpacks related to Belgian Nation, but other third-party packs are also available."
+welcomeDescCTA = "Click continue to enter the launcher."
